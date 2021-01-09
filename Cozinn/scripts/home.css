@@ -1,0 +1,117 @@
+body {
+    background-image: url(../images/homebg.jpg);
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#topnav,
+.navbar-light {
+    background-color: none; !important
+}
+
+.resPass {
+    padding-right: 1em;
+    float: right;
+    color: white;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+.tableHead {
+    display: block;
+    margin: auto;
+    font-size: 1.7em;
+    text-align: center;
+    color: lightgray;
+    font-family: "Lucida Handwriting", cursive;
+    font-weight: 900;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.buttonChat {
+    display: block;
+    margin: auto;
+    border: 2px solid gray;
+    padding: 3px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15), 0 2px 3px 0 rgba(0, 0, 0, .1);
+    background-color: black;
+}
+
+.chatName {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+p.introText {
+    color: white;
+    text-align: center;
+}
+
+.bg {
+    border: 2px solid white;
+    background-color: black;
+    padding-top: 30px;
+    opacity: 0.85;
+}

@@ -1,0 +1,96 @@
+body {
+    background-image: url(../images/homebg.jpg);
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#topnav,
+.navbar-light {
+    background-color: none;
+     !important
+}
+
+.tableHead {
+    font-family: "Segoe UI";
+    color: black;
+    font-size: 20px;
+    background-color: rgba(247, 118, 23, 0.97);
+}
+
+.heading {
+    font-family: "Segoe UI";
+    font-size: 36px;
+    color: #0FF;
+    text-shadow: 0px 0px 2px #000000;
+}
+
+.table {
+    background-color: transparent;
+    padding: 5px 5px;
+}
+
+.fields {
+    font-family: "Segoe UI";
+    color: #FFF;
+    font-size: 14px;
+    border: 1px solid #66F;
+    border-radius: 7px;
+    background-color: lightgray;
+    opacity: 0.9;
+    padding: 2px 4px;
+}
+
+.nick {
+    font-family: "Times New Roman";
+    font-size: 14px;
+    font-style: italic;
+    color: #F90;
+}
+
+.msg {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    color: #FFF;
+}
+
+.commandButton {
+    border: 2px solid red;
+    padding: 7px 30px;
+    border-radius: 30px;
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color: black;
+    background-color: rgba(247, 118, 23, 0.97);
+}
+
+a.logoutButton {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+}
+
+.textarea {
+    display: block;
+    background-color: black;
+    box-sizing: border-box;
+    float: right;
+}
+
+.msgarea {
+    display: block;
+    background-color: black;
+}
+
+a.back {
+    display: block;
+    margin: auto;
+    color: white;
+    text-emphasis: bold;
+    background-color: black;
+    text-decoration: aqua;
+    padding: 5px;
+    margin-top: 10px;
+    width: 20%;
+    border-radius: 15px;
+}

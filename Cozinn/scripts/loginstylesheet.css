@@ -1,0 +1,104 @@
+body {
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Login Form */
+.loginform {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.loginform h1 {
+    text-align: center;
+    color: #2c2c2c;
+    font-size: 35px;
+    color: black;
+    margin-bottom: auto;
+}
+
+td,
+.loginform input[type="password"],
+.loginform input[type="email"],
+.loginform input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.loginform input[type="password"],
+.loginform input[type="email"],
+.loginform input[type="text"] {
+    border: 2px solid #dddddd;
+}
+.loginform input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(231, 160, 231, 0.856);
+    border: 2px solid darkmagenta;
+    border-radius: 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: darkblue;
+    font-size: large;
+}
+
+img.loginimg {
+    display: block;
+    margin: auto;
+    width: 220px;
+}
+
+.loginlogo {
+    padding-top: 25px;
+}
+
+button {
+    padding: 5px;
+    margin-top: 20px;
+    width: 60%;
+    border-radius: 18px;
+    background-color: rgb(202, 23, 53);
+    margin-bottom: 60px;  
+}
+
+a {
+    display: block;
+    margin: auto;
+    color: white;
+    text-emphasis: bold;
+    background-color: black;
+    text-decoration: aqua;
+    padding: 5px;
+    margin-top: 10px;
+    width: 20%;
+    border-radius: 15px;
+}
+
+p {
+    text-align: center;
+    font-size: small;
+}
+
+.labels {
+    text-align: left;
+    display: block;
+    margin: auto;
+    font-size: medium;
+    line-height: 1.8;
+}
+
+.logmsg {
+    font-size: 17px;
+}
+
+.loginHref {
+    width: 40%;
+    margin-top: auto;
+}
+

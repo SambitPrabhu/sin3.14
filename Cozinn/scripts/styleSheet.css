@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document 
+
+Author: Ashish Labade - https://www.ashishvegan.com  
+Property of Tech Vegan Not For Sell/Not for Selling through any Blog/Website
+Designed &amp; Developed by:
+								Ashish Labade - https://www.ashishvegan.com 
+                                Tech Vegan YouTube Channel Link: https://bit.ly/2MFT35Q
+                                Copyright 2020 - Tech Vegan
+
+*/
+
+body
+{
+	background-image:url(../images/bg.jpg);
+	background-repeat:repeat;
+}
+.heading
+{
+	font-family:"Segoe UI";
+	font-size:36px;
+	color:#0FF;
+	text-shadow:0px 0px 2px #000000;
+}
+
+.table
+{
+	border:1px solid #66F;
+	border-radius:7px;
+	background-color:transparent;
+	box-shadow:0px 0px 8px #6699FF;
+	padding:5px 5px;
+}
+
+.tableHead
+{
+	font-family:"Segoe UI";
+	color:#6CF;
+	font-size:20px;
+	text-shadow:0px 0px 2px #000000;
+}
+.labels
+{
+	font-family:"Segoe UI";
+	color:#FFF;
+	font-size:15px;
+	text-shadow:0px 0px 2px #000000;
+	font-style:italic;
+}
+.fields
+{
+	font-family:"Segoe UI";
+	color:#FFF;
+	font-size:14px;
+	border:1px solid #66F;
+	border-radius:7px;
+	background-color:transparent;
+	padding:2px 4px;
+}
+.commandButton
+{
+	border:2px solid #66F;
+	font-family:"Segoe UI";
+	font-size:14px;
+	color:#FFF;
+	background-color:transparent;
+}
+
+
+a:link{font-family:"Segoe UI";color:#FFF;text-decoration:none;font-size:16px;text-shadow:2px 2px 3px #333333;}
+a:active{font-family:"Segoe UI";color:#FFF;text-decoration:none;font-size:16px;text-shadow:2px 2px 3px #333333;}
+a:visited{font-family:"Segoe UI";color:#FFF;text-decoration:none;font-size:16px;text-shadow:2px 2px 3px #333333;}
+a:hover{font-family:"Segoe UI";color:#3FF;text-decoration:none;font-size:16px;text-shadow:2px 2px 3px #333333;}
+
+.text
+{
+	font-family:"Segoe UI";
+	color:#6CF;
+	font-size:16px;
+	text-shadow:0px 0px 2px #000000;
+}
+.info
+{
+	font-family:"Segoe UI";
+	color:#F30;
+	font-size:14px;
+	text-shadow:0px 0px 2px #000000;
+}
+
+.nick
+{
+	font-family:"Times New Roman";
+	font-size:14px;
+	font-style:italic;
+	color:#F90;
+}
+.msg
+{
+	font-family:"Segoe UI";
+	font-size:14px;
+	color:#FFF;
+}
+
+td{vertical-align:top;}
